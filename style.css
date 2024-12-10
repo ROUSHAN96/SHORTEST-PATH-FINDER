@@ -5,6 +5,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.help{
+  font-size: 100px;
+  font-style: inherit;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
 .drawing-area {
   display: flex;
   position: absolute;
@@ -48,7 +54,7 @@ body {
   cursor: pointer;
   outline: none;
   color: #fff;
-  padding: 6px 10px;
+  padding: 12px 20px;
   box-shadow: 1px 2px 3px 1px #333;
 }
 .outline-btn:active {
